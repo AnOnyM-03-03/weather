@@ -9,28 +9,28 @@ body{
     align-items: center;
     background-color: #ffe4c4;
 }
-.box__weather {
+.weather {
     margin-top: 100px;
 }
-.input__search {
+.weather__search {
     border: none;
     border-bottom: 1px solid #000;
     background-color: inherit;
     width: 200px;
     height: 30px;
 }
-.input__search::placeholder{
+.weather__search::placeholder{
     font-size: 20px;
     color: #f1a344;
 }
-.input__search:focus-visible{
+.weather__search:focus-visible{
     padding: 10px 10px;
     background-color: #ebd6bd;
     outline: none;
     font-size: 16px;
     font-family: sans-serif;
 }
-.title__weather {
+.weather__title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,16 +44,16 @@ body{
     flex-direction: column;
 }
 
-.weather__time{
+.weather__extra-options_time{
     margin-top: 20px;
 }
-.weather__description {
+.weather__extra-options_description {
     margin-top: 20px;
 }
-.weather__wind {
+.weather__extra-options_wind {
     margin-top: 20px;
 }
-.weather__temp{
+.weather__extra-options_temp{
     margin-top: 20px;
     font-size: 50px;
     color: rgb(44, 4, 138);

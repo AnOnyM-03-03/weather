@@ -1,9 +1,11 @@
-const inputSearch = document.querySelector('.input__search');
-const cityNameBlock = document.querySelector('.title__weather');
-const tempBlock = document.querySelector('.weather__temp');
-const timeBlock = document.querySelector('.weather__time');
-const descriptionBlock = document.querySelector('.weather__description');
-const weatherBlock = document.querySelector('.weather__wind');
+const inputSearch = document.querySelector('.weather__search');
+const cityNameBlock = document.querySelector('.weather__title');
+const tempBlock = document.querySelector('.weather__extra-options_temp');
+const timeBlock = document.querySelector('.weather__extra-options_time');
+const descriptionBlock = document.querySelector(
+   '.weather__extra-options_description'
+);
+const weatherBlock = document.querySelector('.weather__extra-options_wind');
 let city;
 
 document.addEventListener('keydown', (e) => {
